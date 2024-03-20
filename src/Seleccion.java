@@ -50,4 +50,14 @@ public class Seleccion {
         this.edad = edad;
     }
 
+    public void Concentrarse(){
+        System.out.println("----------| Seleccion / Concentrarse |----------");
+        System.out.println("Nombre(s): " + getNombre() + " | Apellidos: " + getApellidos());
+        System.out.println("- Estoy concentrandome");
+    }
+    public void Viajar(){
+        System.out.println("----------| Seleccion / Viaje |----------");
+        System.out.println("Nombre(s): " + getNombre() + " | Apellidos: " + getApellidos());
+        System.out.println("- Estoy viajando");
+    }
 }

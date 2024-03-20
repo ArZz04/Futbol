@@ -15,4 +15,14 @@ public class Entrenador extends Seleccion {
         this.idFederacion = idFederacion;
     }
 
+    public void DirigirPartido(){
+        System.out.println("----------| Entrenador / Partido |----------");
+        System.out.println("Nombre(s): " + getNombre() + " | Apellidos: " + getApellidos());
+        System.out.println("- Estoy dirigiendo un partido");
+    }
+    public void DirigirEntrenamiento(){
+        System.out.println("----------| Entrenador / Entrenamiento |----------");
+        System.out.println("Nombre(s): " + getNombre() + " | Apellidos: " + getApellidos());
+        System.out.println("- Estoy dirigiendo un entrenamiento");
+    }
 }

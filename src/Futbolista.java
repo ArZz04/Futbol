@@ -24,4 +24,15 @@ public class Futbolista extends Seleccion {
     public void setDemarcacion(String demarcacion) {
         this.demarcacion = demarcacion;
     }
+
+    public void JugarPartido(){
+        System.out.println("----------| Futbolista / Partido |----------");
+        System.out.println("Nombre(s): " + getNombre() + " | Apellidos: " + getApellidos());
+        System.out.println("- Estoy jugando un partido");
+    }
+    public void Entrenar(){
+        System.out.println("-----------| Futbolista / Entrenamiento |----------");
+        System.out.println("Nombre(s): " + getNombre() + " | Apellidos: " + getApellidos());
+        System.out.println("- Estoy entrenando");
+    }
 }
